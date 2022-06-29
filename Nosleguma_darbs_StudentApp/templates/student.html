@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student</title>
+</head>
+<body>
+    <h1>[{{ student.id }}] Student name: <u> {{ student.name }} </u></h1>
+    <h2>Grades: {{ student.grades }}</h2>
+    <h2>Average grade: {{ student.average_grade|floatformat:2 }}</h2>
+</body>
+</html>
